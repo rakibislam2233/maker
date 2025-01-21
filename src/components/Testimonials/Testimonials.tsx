@@ -23,7 +23,7 @@ type ArrowProps = {
 // Custom Arrow Components
 const CustomPrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
   <div
-    className="absolute -left-14 top-1/2 transform -translate-y-1/2 bg-black rounded-full w-10 h-10 flex items-center justify-center cursor-pointer z-10"
+    className="absolute left-0 md:-left-14 top-1/2 transform -translate-y-1/2 bg-black rounded-full w-10 h-10 flex items-center justify-center cursor-pointer z-10"
     onClick={onClick}
   >
     <span className="text-white text-lg">‹</span>
@@ -32,7 +32,7 @@ const CustomPrevArrow: React.FC<ArrowProps> = ({ onClick }) => (
 
 const CustomNextArrow: React.FC<ArrowProps> = ({ onClick }) => (
   <div
-    className="absolute -right-14 top-1/2 transform -translate-y-1/2 bg-black rounded-full w-10 h-10 flex items-center justify-center cursor-pointer z-10"
+    className="absolute right-0 md:-right-14 top-1/2 transform -translate-y-1/2 bg-black rounded-full w-10 h-10 flex items-center justify-center cursor-pointer z-10"
     onClick={onClick}
   >
     <span className="text-white text-lg">›</span>

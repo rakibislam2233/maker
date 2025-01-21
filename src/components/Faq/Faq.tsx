@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import { FaAngleDown, FaAngleUp, FaFlushed } from "react-icons/fa";
+import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
 const Faq: React.FC = () => {
   const faqs = [
