@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from "react";
+import { FaAngleDown, FaAngleUp, FaFlushed } from "react-icons/fa";
 
 const Faq: React.FC = () => {
   const faqs = [
@@ -50,8 +51,8 @@ const Faq: React.FC = () => {
                 <h3 className="text-lg md:text-xl font-semibold text-gray-800">
                   {faq.question}
                 </h3>
-                <span className="text-gray-600 text-xl">
-                  {activeIndex === index ? "−" : "+"}
+                <span className="size-10 rounded-full bg-secondary flex justify-center items-center text-white ">
+                  {activeIndex === index ? <FaAngleUp className="size-5"/> : <FaAngleDown className="size-5"/>}
                 </span>
               </div>
               <div
