@@ -14,3 +14,16 @@ body{
   font-style: normal;
 }
 
+/* Custom Dots Styling */
+.slick-dots.custom-dots {
+  bottom: -30px; /* Adjust as needed */
+}
+.slick-dots.custom-dots li {
+  margin: 0 5px;
+}
+.slick-dots.custom-dots li button:before {
+  content: "";
+}
+.slick-dots.custom-dots li.slick-active div {
+  opacity: 1;
+}

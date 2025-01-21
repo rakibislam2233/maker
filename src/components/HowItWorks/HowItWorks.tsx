@@ -7,7 +7,7 @@ const HowItWorks = () => {
   return (
     <div className="w-full bg-[#EBF7FD] px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold leading-normal">
+        <h1 className="text-3xl md:text-5xl text-center font-bold leading-normal">
           How It <span className="text-secondary">Works</span>
         </h1>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center gap-10 mt-10">
