@@ -25,7 +25,7 @@ const Footer = () => {
             placeholder="Enter Email"
             className="w-full  py-2 px-5 rounded-l-full outline-none bg-transparent text-[#696B6F]"
           />
-          <button className="bg-secondary text-white px-10 py-2 rounded-full flex-shrink-0">
+          <button className="bg-secondary text-white px-10 py-2.5 rounded-full text-sm flex-shrink-0">
             Join Now – It’s Free
           </button>
         </div>

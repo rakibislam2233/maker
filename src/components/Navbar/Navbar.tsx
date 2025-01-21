@@ -35,10 +35,13 @@ const Navbar = () => {
     <nav className="w-full bg-[#FFFFFF]">
       <div className="w-full container mx-auto flex items-center justify-between p-4">
         {/* Logo Section */}
-        <div className="flex items-center gap-2">
-          <Image src={logo} width={50} height={50} alt="logo" />
-          <h1 className="text-xl md:text-2xl font-semibold">MakerMatch</h1>
-        </div>
+        <Link href="/">
+          {" "}
+          <div className="flex items-center gap-2">
+            <Image src={logo} width={50} height={50} alt="logo" />
+            <h1 className="text-xl md:text-2xl font-semibold">MakerMatch</h1>
+          </div>
+        </Link>
 
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden text-2xl cursor-pointer" onClick={toggleMenu}>
