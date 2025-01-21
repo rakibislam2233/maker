@@ -30,7 +30,7 @@ const Benefits = () => {
   ];
 
   return (
-    <div className="w-full bg-white px-5 py-16 md:py-28">
+    <section id="benefits" className="w-full bg-white px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">BENEFITS</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -53,7 +53,7 @@ const Benefits = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

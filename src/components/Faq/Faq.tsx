@@ -33,7 +33,7 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <div className="w-full bg-[#EBF7FD] px-5 py-16 md:py-28">
+    <section id="faq" className="w-full bg-[#EBF7FD] px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
           Frequently Asked <span className="text-secondary">Questions</span>
@@ -66,7 +66,7 @@ const Faq: React.FC = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

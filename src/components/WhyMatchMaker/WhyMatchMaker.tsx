@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyMatchMaker = () => {
   return (
-    <div className="w-full bg-primary px-5 py-16 md:py-28">
+    <section id="why-match-maker" className="w-full bg-primary px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 md:gap-16">
         <div className="space-y-2">
           <h1 className="text-3xl md:text-5xl font-semibold leading-normal">
@@ -59,7 +59,7 @@ const WhyMatchMaker = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

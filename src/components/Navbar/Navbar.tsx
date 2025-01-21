@@ -22,6 +22,10 @@ const navLink = [
     title: "Testimonials",
     url: "#testimonials",
   },
+  {
+    title:"Faq",
+    url:"#faq"
+  }
 ];
 
 const Navbar = () => {
@@ -68,7 +72,7 @@ const Navbar = () => {
               key={index}
               className="px-4 py-2 text-lg text-[#484D59] hover:text-pink-500 md:px-0"
             >
-              <Link href={link.url} onClick={() => setIsMenuOpen(false)}>
+              <Link href={link.url} scroll={true} onClick={() => setIsMenuOpen(false)}>
                 {link.title}
               </Link>
             </li>

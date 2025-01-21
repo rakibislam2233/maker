@@ -5,7 +5,7 @@ import step3 from "@/assets/how-work/step3.png";
 
 const HowItWorks = () => {
   return (
-    <div className="w-full bg-[#EBF7FD] px-5 py-16 md:py-28">
+    <section id="how-it-works" className="w-full bg-[#EBF7FD] px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
         <h1 className="text-3xl md:text-5xl text-center font-bold leading-normal">
           How It <span className="text-secondary">Works</span>
@@ -65,7 +65,7 @@ const HowItWorks = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

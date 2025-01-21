@@ -35,15 +35,15 @@ const Footer = () => {
         <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row items-center justify-between">
           {/* Links */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 text-gray-700 text-sm">
-            <a href="#" className="hover:underline">
+            <Link href="#faq" className="hover:underline">
               FAQ
-            </a>
-            <a href="#" className="hover:underline">
+            </Link>
+            <Link href="#" className="hover:underline">
               Contacts Us
-            </a>
-            <a href="#" className="hover:underline">
+            </Link>
+            <Link href="#" className="hover:underline">
               Guidelines
-            </a>
+            </Link>
           </div>
           {/* Social Icons */}
           <div className="flex justify-center mt-6 md:mt-0 gap-4">
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-lg text-gray-500">
-          © 2025 Maker Match
+          © {new Date().getFullYear()} Maker Match
         </div>
       </div>
     </div>

@@ -79,7 +79,7 @@ const Testimonials: React.FC = () => {
   };
 
   return (
-    <div className="w-full bg-pink-500 px-5 py-16 md:py-28 text-white">
+    <section id="testimonials" className="w-full bg-pink-500 px-5 py-16 md:py-28 text-white">
       <div className="w-full max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-bold text-center  mb-12">
           TESTIMONIALS
@@ -90,7 +90,7 @@ const Testimonials: React.FC = () => {
           ))}
         </Slider>
       </div>
-    </div>
+    </section>
   );
 };
 
