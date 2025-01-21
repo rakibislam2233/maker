@@ -1,3 +1,4 @@
+import Benefits from "@/components/Benefits/Benefits";
 import Faq from "@/components/Faq/Faq";
 import Footer from "@/components/Footer/Footer";
 import HeroSection from "@/components/HeroSection/HeroSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <HeroSection />
       <HowItWorks />
       <WhyMatchMaker />
+      <Benefits />
       <Testimonials />
       <Faq />
       <Footer />
