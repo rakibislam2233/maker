@@ -28,6 +28,7 @@ const Footer = () => {
           <button className="bg-secondary text-white px-10 py-2.5 rounded-full text-sm flex-shrink-0">
             Join Now – It’s Free
           </button>
+          
         </div>
       </div>
       {/* Footer Section */}

@@ -8,23 +8,23 @@ const Benefits = () => {
   const benefits = [
     {
       id: 1,
-      name: "Lorem Ipsum",
+      name: "AI-Powered Matchmaking",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Leverage advanced AI algorithms to connect with the most relevant tools and apps tailored to your needs.",
       image: benefit1,
     },
     {
       id: 2,
-      name: "Lorem Ipsum",
+      name: "Seamless Integration",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Easily integrate Make Matcher with your existing workflow for a smooth and efficient experience.",
       image: benefit2,
     },
     {
       id: 3,
-      name: "Lorem Ipsum",
+      name: "Continuous Learning",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Benefit from AI that learns and improves over time, ensuring better matches and smarter suggestions.",
       image: benefit3,
     },
   ];
@@ -32,7 +32,9 @@ const Benefits = () => {
   return (
     <section id="benefits" className="w-full bg-white px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">BENEFITS</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
+          BENEFITS
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {benefits.map((benefit) => (
             <div key={benefit.id} className="w-full flex flex-col gap-3">
@@ -45,10 +47,10 @@ const Benefits = () => {
                   className="w-full h-[250px] max-w-[250px] mx-auto mb-6"
                 />
               </div>
-             <div className="p-2 space-y-1">
-             <h3 className="text-xl font-semibold">{benefit.name}</h3>
-             <p className=" text-gray-600">{benefit.description}</p>
-             </div>
+              <div className="p-2 space-y-1">
+                <h3 className="text-xl font-semibold">{benefit.name}</h3>
+                <p className=" text-gray-600">{benefit.description}</p>
+              </div>
             </div>
           ))}
         </div>
