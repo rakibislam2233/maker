@@ -37,13 +37,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-[#FFFFFF]">
-      <div className="w-full container mx-auto flex items-center justify-between p-4">
+      <div className="w-full container mx-auto flex items-center justify-between h-[97px]">
         {/* Logo Section */}
         <Link href="/">
           {" "}
           <div className="flex items-center gap-2">
-            <Image src={logo} width={50} height={50} alt="logo" />
-            <h1 className="text-xl md:text-2xl font-semibold">MakerMatch</h1>
+            <Image src={logo} width={48} height={34} alt="logo" />
+            <h1 className="text-xl md:text-2xl font-bold">MakerMatch</h1>
           </div>
         </Link>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
           {navLink.map((link, index) => (
             <li
               key={index}
-              className="px-4 py-2 text-lg text-[#484D59] hover:text-pink-500 md:px-0"
+              className="px-4 py-2 font-semibold text-[16px] text-[#484D59] hover:text-pink-500 md:px-0"
             >
               <Link href={link.url} scroll={true} onClick={() => setIsMenuOpen(false)}>
                 {link.title}
