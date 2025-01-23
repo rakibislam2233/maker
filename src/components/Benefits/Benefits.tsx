@@ -42,14 +42,14 @@ const Benefits = () => {
                 <Image
                   src={benefit.image.src}
                   alt={benefit.name}
-                  width={250}
-                  height={250}
-                  className="w-full h-[250px] max-w-[250px] mx-auto mb-6"
+                  width={315}
+                  height={265}
+                  className="w-full h-[265px] max-w-[315px] mx-auto mb-6"
                 />
               </div>
-              <div className="p-2 space-y-1">
-                <h3 className="text-xl font-semibold">{benefit.name}</h3>
-                <p className=" text-gray-600">{benefit.description}</p>
+              <div className="p-2 space-y-2">
+                <h3 className="text-xl md:text-[26px] font-semibold">{benefit.name}</h3>
+                <p className="text-lg md:text-[20px] text-gray-600">{benefit.description}</p>
               </div>
             </div>
           ))}
