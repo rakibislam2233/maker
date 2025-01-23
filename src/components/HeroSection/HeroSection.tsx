@@ -32,17 +32,17 @@ const HeroSection = () => {
               {spotsArray.map((digit, index) => (
                 <div
                   key={index}
-                  className="size-14 flex items-center justify-center border rounded-md bg-[#F4F4F4]"
+                  className="size-[40px] flex items-center justify-center border rounded-md bg-[#F4F4F4]"
                 >
-                  <span className="text-xl font-bold text-[#696B6F]">
+                  <span className="text-[16px] font-bold text-[#696B6F]">
                     {digit}
                   </span>
                 </div>
               ))}
-              <span className="text-lg text-[#696B6F] ml-2">spots left</span>
+              <span className="text-lg font-medium text-[#696B6F] ml-2">spots left</span>
             </div>
             <hr className="my-9" />
-            <h3 className="text-xl font-semibold text-[#696B6F] mb-4">
+            <h3 className="text-xl font-bold text-[#696B6F] mb-4">
               Claim Your Spot For Free
             </h3>
             <div className="flex justify-between items-center gap-1 rounded-full bg-[#F2F3F6] p-1">

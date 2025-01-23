@@ -70,7 +70,7 @@ const Navbar = () => {
           {navLink.map((link, index) => (
             <li
               key={index}
-              className="px-4 py-2 font-semibold text-[16px] text-[#484D59] hover:text-pink-500 md:px-0"
+              className="px-4 py-2 font-medium text-[16px] text-[#484D59] hover:text-pink-500 md:px-0"
             >
               <Link href={link.url} scroll={true} onClick={() => setIsMenuOpen(false)}>
                 {link.title}

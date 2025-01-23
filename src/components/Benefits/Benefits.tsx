@@ -32,10 +32,10 @@ const Benefits = () => {
   return (
     <section id="benefits" className="w-full bg-white px-5 py-16 md:py-28">
       <div className="w-full max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
+        <h2 className="text-3xl md:text-5xl xl:text-7xl font-bold leading-normal">
           BENEFITS
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[57px]">
           {benefits.map((benefit) => (
             <div key={benefit.id} className="w-full flex flex-col gap-3">
               <div className="bg-[#9DDEFF] p-5 rounded-md">
