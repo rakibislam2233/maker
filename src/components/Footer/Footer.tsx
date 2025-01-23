@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="w-full max-w-7xl mx-auto mt-16">
         <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row items-center justify-between">
           {/* Links */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-6 text-gray-700 text-sm">
+          <div className="flex flex-wrap justify-center md:justify-start gap-6 text-gray-700 text-lg">
             <Link href="#faq" className="hover:underline">
               FAQ
             </Link>
