@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-[#FFFFFF]">
+    <nav className="w-full bg-[#FFFFFF] px-3">
       <div className="w-full container mx-auto flex items-center justify-between h-[97px]">
         {/* Logo Section */}
         <Link href="/">
