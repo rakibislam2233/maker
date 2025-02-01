@@ -8,23 +8,23 @@ const Benefits = () => {
   const benefits = [
     {
       id: 1,
-      name: "AI-Powered Matchmaking",
+      name: "Quality Over Quantity",
       description:
-        "Leverage advanced AI algorithms to connect with the most relevant tools and apps tailored to your needs.",
+        "Our AI matches you with people who align with your values, goals, and lifestyle—no endless swiping required.",
       image: benefit1,
     },
     {
       id: 2,
-      name: "Seamless Integration",
+      name: "Less Swiping,  More Connecting",
       description:
-        "Easily integrate Make Matcher with your existing workflow for a smooth and efficient experience.",
+        "Get five curated matches each week, so you can focus on building meaningful connections without the overwhelm.",
       image: benefit2,
     },
     {
       id: 3,
-      name: "Continuous Learning",
+      name: "Designed for Real Relationships",
       description:
-        "Benefit from AI that learns and improves over time, ensuring better matches and smarter suggestions.",
+        "We prioritize compatibility to help you find someone who’s truly in it for the long haul.",
       image: benefit3,
     },
   ];
@@ -38,7 +38,7 @@ const Benefits = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-[57px]">
           {benefits.map((benefit) => (
             <div key={benefit.id} className="w-full flex flex-col gap-3">
-              <div className="bg-[#9DDEFF] p-5 rounded-md">
+              <div className="bg-[#9DDEFF]  p-5 rounded-md">
                 <Image
                   src={benefit.image.src}
                   alt={benefit.name}
@@ -49,7 +49,7 @@ const Benefits = () => {
               </div>
               <div className="p-2 space-y-2">
                 <h3 className="text-xl md:text-[26px] font-semibold">{benefit.name}</h3>
-                <p className="text-lg md:text-[20px] text-gray-600">{benefit.description}</p>
+                <p className="text-lg md:text-[19px] text-gray-600">{benefit.description}</p>
               </div>
             </div>
           ))}
